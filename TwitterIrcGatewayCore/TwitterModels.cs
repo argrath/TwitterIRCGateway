@@ -119,7 +119,7 @@ namespace Misuzilla.Applications.TwitterIrcGateway
         [JsonProperty("entities")]
         public Entities Entities;
 
-        [JsonProperty("text")]
+        [JsonProperty("full_text")]
         public String _textOriginal { get; set; }
         [JsonIgnore]
         private String _text { get; set; }
